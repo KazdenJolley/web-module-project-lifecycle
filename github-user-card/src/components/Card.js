@@ -4,7 +4,7 @@ class Card extends React.Component {
 
     render() {
         return (
-            <h1>{this.props.info} World!</h1>
+            <h1>{this.props.info.bio}</h1>
         )
     }
 }
