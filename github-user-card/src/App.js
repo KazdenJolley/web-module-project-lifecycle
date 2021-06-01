@@ -6,7 +6,7 @@ import axios from 'axios';
 class App extends React.Component {
 
   state = {
-    info: "Hello"
+    info: {},
   }
 
   componentDidMount() {
